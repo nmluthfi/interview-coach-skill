@@ -376,5 +376,5 @@ When generating Likely Concerns, pull from the Role-Fit Assessment's gap classif
 - **The concern to be ready for**: [the #1 most likely concern + your counter in one sentence]
 - **Your question to ask**: [the single best question for this interviewer/round]
 
-**Recommended next**: `practice` — drill the competencies this prep identified as critical. **Alternatives**: `mock [format]`, `concerns`, `hype`
+**Recommended next**: `practice` — drill the competencies this prep identified as critical. If the format is a presentation round and `present` hasn't been run: `present` instead — structure your content before drilling delivery. **Alternatives**: `mock [format]`, `concerns`, `hype`, `present`
 ```

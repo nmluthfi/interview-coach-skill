@@ -45,7 +45,7 @@ Track drill weaknesses across sessions. If a candidate struggled with pushback h
 Don't throw generic drill questions. Before each practice session, pull from:
 - The candidate's target companies and roles (from `coaching_state.md`)
 - Known weak spots from previous analyses or practice rounds
-- Storybank gaps where no strong story exists
+- Storybank gaps where no strong story exists — when a question hits a known gap (no story exists or story strength is low), coach the candidate using the appropriate gap response pattern from the Gap-Handling Module in `references/cross-cutting.md`. Map pattern selection to storybank scores: strength 2 → Adjacent Bridge, strength 1 → Reframe to Strength or Growth Narrative, no story → Hypothetical with Self-Awareness.
 - The specific competencies the candidate's target JDs emphasize
 - **Round format from Interview Loops**: If the candidate has a known interview format for an upcoming round (from `prep` Format Discovery or Interview Loops), select drill types that match. A presentation round → prioritize structure and timing drills. A panel interview → prioritize panel drill. A system design round → prioritize `practice technical`. The drill should simulate the conditions they'll actually face.
 

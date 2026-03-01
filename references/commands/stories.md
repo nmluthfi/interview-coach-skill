@@ -46,7 +46,7 @@ When the candidate selects "Improve," don't just say "add more specifics." Walk 
 
 When the candidate has 8+ stories, periodically run a portfolio-level audit (suggest this in `progress` when storybank health shows issues):
 
-- **Distribution check**: Are all stories from the same job? Same domain? Same skill? Flag clustering.
+- **Distribution check**: Are all stories from the same job? Same domain? Same skill? Flag clustering. For portfolio-level gaps, `progress` tracks storybank health trends across sessions.
 - **Strength curve**: How many at 4+? How many below 3? A healthy storybank has at least 60% at 4+.
 - **Earned secret coverage**: How many stories have a real earned secret vs. a placeholder? Stories without earned secrets are incomplete.
 - **Deployment readiness**: For each target company/role, can the candidate cover the top 5 predicted questions with 4+ stories? If not, which gaps need new stories vs. improved existing ones?
@@ -82,7 +82,7 @@ When the candidate selects "Find gaps," don't just list missing competencies —
 1. Cross-reference the candidate's target roles/companies (from `coaching_state.md`) with the storybank's skill coverage. **Check both Primary and Secondary Skills** — a competency may be covered as a secondary skill in an existing story, which changes the gap from "no story" to "Workable coverage" (see `references/story-mapping-engine.md` for fit scoring).
 2. For each gap, assess: **Critical** (this competency will definitely be tested and no story exists, even as a secondary skill), **Important** (likely to come up, only weak stories or secondary-skill-only coverage available), **Nice-to-have** (might come up, but won't make or break the interview).
 3. For critical gaps, check: can an existing story be reframed to cover this competency (using its secondary skill or an adjacent experience), or does the candidate need to surface a new experience entirely?
-4. Prescribe gap-handling patterns (from the Gap-Handling Module) for any competencies where no real story exists.
+4. Prescribe gap-handling patterns from the Gap-Handling Module in `references/cross-cutting.md` for any competencies where no real story exists. Use the Pattern Selection by Storybank Score table: strength 2 → Adjacent Bridge, strength 1 → Reframe to Strength or Growth Narrative, no story → Hypothetical with Self-Awareness.
 5. **Cross-reference with active prep briefs**: If the candidate has active prep briefs (from `prep`), check predicted questions against gaps. A gap that maps to a predicted question at a current target company is elevated to Critical regardless of general frequency.
 6. **Consume narrative identity output** (if `stories narrative identity` has been run): Use the candidate's core themes and sharpest edge to inform gap prioritization. Gaps in the candidate's dominant themes are more damaging than gaps in peripheral areas — a candidate whose theme is "building systems from scratch" must have a gap-free story set for process-building and ambiguity questions. Also check for orphan stories that could be reframed to fill a gap through their theme connection.
 
