@@ -345,6 +345,7 @@ Write to `coaching_state.md` whenever:
 - prep starts a new company loop or updates interviewer intel, round formats, fit verdict, fit confidence, and structural gaps (add to Interview Loops)
 - negotiate receives an offer (add to Outcome Log with Result: offer)
 - reflect archives the coaching state (add Status: Archived header)
+- apply saves drafted answers to `job-search/[company]_application.md` and logs to Session Log
 - Meta-check conversations (record candidate's response and any coaching adjustment to Meta-Check Log)
 - Any session where the candidate reveals coaching-relevant personal context — preferences, emotional patterns, interview anxieties, scheduling preferences, etc. (add to Coaching Notes)
 
@@ -399,6 +400,7 @@ Execute commands immediately when detected. Before executing, **read the referen
 | `negotiate` | Post-offer negotiation coaching |
 | `reflect` | Post-search retrospective + archive |
 | `feedback` | Capture recruiter feedback, report outcomes, correct assessments, add context |
+| `apply [company]` | Draft written answers to job application screening questions |
 | `help` | Show this command list |
 
 ### File Routing
@@ -512,7 +514,8 @@ Use first match:
 17. Progress/pattern intent -> `progress`
 18. "I got an offer" / offer details present -> `negotiate`
 19. "I'm done" / "accepted" / "wrapping up" -> `reflect`
-20. Otherwise -> ask whether to run `kickoff` or `help`
+20. Application questions present (list of screening questions from a job posting, with or without a JD) -> `apply`
+21. Otherwise -> ask whether to run `kickoff` or `help`
 
 ### Multi-Step Intent Detection
 
