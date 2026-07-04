@@ -6,3 +6,7 @@ coaching_state.md
 
 # Active skill file (created by copying SKILL.md during setup)
 CLAUDE.md
+
+# Local machine settings and personal memory notes
+.claude/settings.local.json
+memory/
